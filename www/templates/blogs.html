@@ -1,6 +1,6 @@
 {% extends '__base__.html' %}
 
-{% block title %}日志{% endblock %}
+{% block title %}日志^_^{% endblock %}
 
 {% block beforehead %}
 
@@ -17,7 +17,7 @@
             <h2><a href="/blog/{{ blog.id }}">{{ blog.name }}</a></h2>
             <p class="uk-article-meta">发表于{{ blog.created_at|datetime }}</p>
             <p>{{ blog.summary }}</p>
-            <p><a href="/blog/{{ blog.id }}">继续阅读 <i class="uk-icon-angle-double-right"></i></a></p>
+            <p><a href="/blog/{{ blog.id }}">再来一篇^3^<i class="uk-icon-angle-double-right"></i></a></p>
         </article>
         <hr class="uk-article-divider">
     {% endfor %}
